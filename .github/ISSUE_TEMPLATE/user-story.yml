@@ -1,0 +1,38 @@
+name: User story
+description: Décrire un besoin du point de vue d'un utilisateur
+labels: ["user story"]
+body:
+  - type: input
+    id: role
+    attributes:
+      label: En tant que
+      placeholder: usager, agent de la médiathèque, responsable
+    validations:
+      required: true
+  - type: input
+    id: besoin
+    attributes:
+      label: Je veux
+      placeholder: réserver un créneau dans une salle
+    validations:
+      required: true
+  - type: input
+    id: benefice
+    attributes:
+      label: Afin de
+      placeholder: ne plus avoir à appeler la médiathèque
+    validations:
+      required: true
+  - type: textarea
+    id: criteres
+    attributes:
+      label: Critères d'acceptation
+      description: Un critère par ligne, vérifiable, au format Étant donné / Quand / Alors.
+      placeholder: |
+        - Étant donné ..., quand ..., alors ...
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes, dépendances, maquette associée

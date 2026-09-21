@@ -1,0 +1,30 @@
+name: Bug
+description: Signaler un dysfonctionnement
+labels: ["bug"]
+body:
+  - type: textarea
+    id: etapes
+    attributes:
+      label: Étapes pour reproduire
+      placeholder: |
+        1. Ouvrir ...
+        2. Cliquer sur ...
+    validations:
+      required: true
+  - type: textarea
+    id: attendu
+    attributes:
+      label: Résultat attendu
+    validations:
+      required: true
+  - type: textarea
+    id: obtenu
+    attributes:
+      label: Résultat obtenu
+    validations:
+      required: true
+  - type: input
+    id: environnement
+    attributes:
+      label: Environnement
+      placeholder: navigateur, système, taille d'écran
