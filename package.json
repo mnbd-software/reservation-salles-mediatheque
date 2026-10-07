@@ -1,0 +1,12 @@
+{
+  "name": "reservation-salles",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Réservation de salles - Médiathèque de Valmont (projet fictif à visée pédagogique)",
+  "scripts": {
+    "lint": "html-validate \"src/**/*.html\""
+  },
+  "devDependencies": {
+    "html-validate": "^9.0.0"
+  }
+}
