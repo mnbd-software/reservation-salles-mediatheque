@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Connexion - Médiathèque de Valmont</title>
+  <meta name="description" content="Connectez-vous pour réserver une salle à la médiathèque de Valmont.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="entete">
+    <p class="entete__titre">Médiathèque de Valmont</p>
+    <nav aria-label="Navigation principale">
+      <ul class="entete__liens">
+        <li><a href="index.html">Salles</a></li>
+        <li><a href="connexion.html" aria-current="page">Connexion</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="contenu">
+    <h1>Connexion</h1>
+    <!-- A faire : affichage des erreurs de saisie et message d'erreur générique (#9) -->
+    <form action="#" method="post">
+      <p>
+        <label for="email">Adresse e-mail</label><br>
+        <input id="email" name="email" type="email" autocomplete="email" required>
+      </p>
+      <p>
+        <label for="mot-de-passe">Mot de passe</label><br>
+        <input id="mot-de-passe" name="mot-de-passe" type="password" autocomplete="current-password" required>
+      </p>
+      <button class="bouton" type="submit">Se connecter</button>
+    </form>
+  </main>
+
+  <footer class="pied">
+    <p>Médiathèque de Valmont - Projet fictif à visée pédagogique</p>
+  </footer>
+</body>
+</html>
