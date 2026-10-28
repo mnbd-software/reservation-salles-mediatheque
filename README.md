@@ -21,7 +21,7 @@ Permettre aux usagers inscrits de consulter les salles, de vérifier leur dispon
 ## Organisation du projet
 
 - Méthode itérative : sprints de deux semaines, revue et planification à chaque fin de sprint.
-- Suivi : [GitHub Projects](https://github.com/orgs/mnbd-software/projects/1) (vues Backlog, Sprint en cours, Roadmap, Par jalon).
+- Suivi : [GitHub Projects](https://github.com/orgs/mnbd-software/projects/1) (vues Backlog, Sprint en cours, Roadmap, Toutes les tâches).
 - Jalons : voir l'onglet Milestones du dépôt.
 - Conventions de travail : [CONTRIBUTING.md](CONTRIBUTING.md).
 
